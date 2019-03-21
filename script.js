@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var dataURL = 'https://api.instagram.com/v1/self/media/recent';
+    var dataURL = 'https://api.instagram.com/v1/users/self/media/recent';
     var photoData;
 
     var getData = function(url) {
